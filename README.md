@@ -1,4 +1,4 @@
-建议[在线阅读]()
+建议[在线阅读](http://jamesforlife.top/JavaBookofPch/)，加载更快！
 
 # 目录
 
