@@ -1,11 +1,3 @@
----
-title: java中的I/O模型
-date: 2021-03-08 20:15:17
-tags:
- - 基础知识点
-categories: Java面经基础
----
-
 ## 1. BIO
 
 BIO就是**Blocking IO**阻塞IO

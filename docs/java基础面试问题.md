@@ -1,11 +1,3 @@
----
-title: 什么是JDK、jre和jvm
-date: 2021-03-06 15:24:34
-tags: 
-- 知识点
-categories: Java面经基础
----
-
 首先看官方的解释：
 
 - **JDK**(<font color='cornflowerblue'>Java Development Kit</font> Java开发工具包)，JDK是提供给Java开发人员使用的，其中包含了java的开发工具，也包括了JRE。所以安装了JDK，就不用在单独安装JRE了。其中的开发工具包括编译工具(javac.exe) 打包工具(jar.exe)等。

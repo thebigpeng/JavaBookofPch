@@ -1,13 +1,3 @@
----
-title: Java中的IO
-date: 2021-03-06 19:52:14
-tags:
- - 基础知识点
-categories: Java基础
----
-
-<!-- toc -->
-
 ## 1.什么是流？
 
 **概念**：<font color='orange'>流是内存与存储设备之间传输数据的通道</font>。

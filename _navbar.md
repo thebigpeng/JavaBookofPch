@@ -1,6 +1,6 @@
 * Introduction
 
-* [简介](README.md)
+* [主页](README.md)
 
     
 

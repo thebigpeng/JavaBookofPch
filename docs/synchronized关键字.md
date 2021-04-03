@@ -1,13 +1,3 @@
----
-title: synchronized关键字
-date: 2021-03-08 10:43:51
-tags: 
- - 多线程高级
-categories: Java面经
----
-
-<!-- toc -->
-
 ## 1.三种应用方式
 
 ### 1.1修饰实例方法
@@ -24,7 +14,7 @@ categories: Java面经
 
 即同步代码块，指定加锁对象，对给定对象加锁，进入同步代码库前要获得给定对象的锁。
 
-```java
+```
 public class AccountingSync implements Runnable{
     static AccountingSync instance=new AccountingSync();
     static int i=0;
@@ -46,11 +36,6 @@ public class AccountingSync implements Runnable{
         System.out.println(i);
     }
 }
-
-作者：foofoo
-链接：https://juejin.cn/post/6844903670933356551
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 将synchronized作用于一个给定的括号里的实例对象instance，即当前实例对象就是锁对象，每次当线程进入synchronized包裹的代码块时就会要求当前线程持有instance实例对象锁，如果当前有其他线程正持有该对象锁，那么新到的线程就必须等待，这样也就保证了每次只有一个线程执行i++;操作。

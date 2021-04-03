@@ -1,12 +1,16 @@
 建议[在线阅读](http://jamesforlife.top/JavaBookofPch/)，加载更快！
 
-# 目录
+------------------------
 
-## Java基础
+# **目录**
+
+## **Java基础**
 
 [java基础-1](docs/Java基础知识01.md)
 
 [java基础-2](docs/Java基础知识02.md)
+
+[多态、包、权限修饰符、内部类、Date类总结](docs/多态、包、权限修饰符、内部类、Date类总结.md)
 
 [三大基本特性](docs/java的三大特性.md)
 
@@ -38,24 +42,26 @@
 
 [Map集合](docs/Map集合.md)
 
-## Java多线程
+## **Java多线程**
 
 [进程的创建、线程安全问题](docs/多线程知识点.md)
 
 [线程状态、线程池、死锁、关键字、CAS](docs/多线程知识点-2.md)
 
+[synchronized关键字](docs/synchronized关键字.md)
+
 [Java中的伪共享和各种锁](docs/Java中的伪共享和各种锁.md)
 
-## JVM总结
+## **JVM总结**
 
 [JM内存区域和垃圾收集器GC](docs/JVM总结.md)
 
 [JVM总结](docs/JVM总结2.md)
 
-## 计算机网络
+## **计算机网络**
 
 [常问知识点总结](docs/计算机网络总结.md)
 
-## 数据库
+## **数据库**
 
 待补充。。。。。

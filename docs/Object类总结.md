@@ -1,11 +1,3 @@
----
-title: Object类总结
-date: 2021-02-28 14:58:26
-tags:
-  - 基础知识点
-categories: Java基础
----
-
 <!-- toc -->
 
 # Object类总结

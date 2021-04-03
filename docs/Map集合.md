@@ -1,13 +1,3 @@
----
-title: Map集合
-date: 2021-03-10 17:08:14
-tags:
- - 基础知识点
-categories: Java面经基础
----
-
-<!-- toc -->
-
 [参考连接](https://www.cnblogs.com/skywang12345/p/3310928.html)
 
 ## 1. 基础概念

@@ -1,11 +1,3 @@
----
-title: List集合总结
-date: 2021-03-10 12:32:24
-tags:
- - 基础知识点
-categories: Java面经基础
----
-
 <!-- toc -->
 
 **List**是**Collection**接口的子接口

@@ -1,11 +1,3 @@
----
-title: MySQL汇总
-date: 2021-03-24 21:34:13
-tags:
- - MySql面经
-categories: MySQL
----
-
 <!-- toc -->
 
 ## 1. 事务

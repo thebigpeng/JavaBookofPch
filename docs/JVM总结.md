@@ -1,14 +1,4 @@
----
-title: JVM总结1
-date: 2021-03-12 08:53:15
-tags:
- - JVM
-categories: Java面经
----
-
 [欢迎查看我对JVM总结的思维导图](https://www.processon.com/view/link/6050a729637689019de0e175)
-
-<!-- toc -->
 
 ## 1. JDK发展小结
 

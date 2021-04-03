@@ -1,13 +1,3 @@
----
-title: String、StringBuilder和StringBuffer区别
-date: 2021-03-07 15:29:22
-tags:
- - 基础知识点
-categories: Java面经基础
----
-
-<!-- toc -->
-
 ## 1.简单区别
 
 - String是不可改变长度的，StringBuilder和StringBuffer是可变长度的。

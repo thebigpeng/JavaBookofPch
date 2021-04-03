@@ -1,13 +1,3 @@
----
-title: java中的collection
-date: 2021-03-09 16:16:08
-tags:
-  - 基础知识点
-categories: Java基础
----
-
-<!-- toc -->
-
 ## 1. 什么是集合
 
 `collection`集合就是一个<font color='cornflowerblue'>大小可变的容器</font>， 容器中的每个数据称为一个元素。
@@ -21,9 +11,9 @@ java中集合的代表是：`Collection`，是所有集合的祖宗类。
 
 <font color='red'>这个图记死！</font>
 
-![alt](collection.png)
+![alt](https://z3.ax1x.com/2021/04/02/cm4vyF.png)
 
-![alt](集合.png)
+![alt](https://z3.ax1x.com/2021/04/02/cm4qJ0.png)
 
 ## 2.各系列集合的特点
 
@@ -66,14 +56,6 @@ java中集合的代表是：`Collection`，是所有集合的祖宗类。
 遍历就是把容器中的各个元素都访问一遍。
 
 > toArray和toArray(T[ ] a)返回的都是当前所有元素的数组。 toArray返回的是一个Object[]数组，类型不能改变。 toArray(T[ ] a)返回的是当前传入的类型T的数组，更方便用户操作,比如需要获取一个String类型的数组：toArray(new String[0])。
-
-## 
-
-
-作者：knock_小新
-链接：https://juejin.cn/post/6844903521092009997
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ### 3.1 迭代器
 
@@ -193,13 +175,13 @@ public class collectionDemo {
 
   - ​	**调整方式**:将左右进行第一次左旋，将左右先调整成左左，然后再对左左进行右旋，从而使得二叉树平衡。
 
-    ![alt](左右.png)
+    ![alt](https://z3.ax1x.com/2021/04/02/cm4xL4.png)
 
 - **右左**：在原来平衡的二叉树上，在节点的<font color='cornflowerblue'>右子树的左子树下</font>，有新节点插入，导致节点的左右子树的高度差为2；
 
   - ​	**调整方式**:先对右左进行右旋，使得二叉树变成右右，之后再对"11"节点进行左旋。
 
-    ![alt](右左.png)
+    ![alt](https://z3.ax1x.com/2021/04/02/cm4LWV.png)
 
 - **右右**：即为在原来平衡的二叉树上，在节点的右子树的右子树下，有新节点插入，导致节点的左右子树的高度差为2;
 
@@ -219,5 +201,5 @@ public class collectionDemo {
 4. 如果某一个节点是红色，那么它的子节点必须是黑色(不能出现两个红色节点相连的情况)
 5. 对每一个节点，从该节点到其所有后代叶节点的简单路径上，均包含相同数目的黑色节点；
 
-![alt](红黑树.png)
+![alt](https://z3.ax1x.com/2021/04/02/cm4jQU.png)
 
