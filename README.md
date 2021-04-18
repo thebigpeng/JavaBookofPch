@@ -64,6 +64,6 @@
 
 ## **数据库**
 
-[Redis重点](docs/Redis.md)
+[Redis重点知识点](docs/Redis.md)
 
 待补充。。。。。
