@@ -64,7 +64,7 @@
 
 ## **数据库**
 
-[MySQL汇总](docs/MySQL汇总.md)
+[MySQL事务](docs/MySQL事务.md)
 
 [Redis重点知识点](docs/Redis.md)
 
